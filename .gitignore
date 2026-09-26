@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DuckDB database file, rebuilt from the SQL scripts
+*.duckdb
+*.duckdb.wal
+
+# Raw Netflix reports, downloaded separately (Links in README)
+data/raw/*
+!data/raw/.gitkeep
