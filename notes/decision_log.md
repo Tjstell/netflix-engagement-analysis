@@ -19,3 +19,5 @@ Data spans columns B through G.
 **Arithmetic Check** Views are hours divided by runtime. Convert runtime from
 Hours:Minutes to a decimal for hours to calculate.
 
+**Sheet naming convention** Starting in 2025, Netflix changed the sheet names from
+Film/TV to Movies/Shows. Changed the sheet name in the loader to reflect that.
