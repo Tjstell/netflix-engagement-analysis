@@ -12,3 +12,10 @@ columns or special-casing one file.
 
 **Scope note.** H1 2026 is the final semiannual report; Netflix moves to annual
 reporting in Q1 2027.
+
+**Film Sheet** Five-row title block, Headers on row 6, and an empty leading column A.
+Data spans columns B through G.
+
+**Arithmetic Check** Views are hours divided by runtime. Convert runtime from
+Hours:Minutes to a decimal for hours to calculate.
+

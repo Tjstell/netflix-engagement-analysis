@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS n_rows FROM raw_2023_h2_film;

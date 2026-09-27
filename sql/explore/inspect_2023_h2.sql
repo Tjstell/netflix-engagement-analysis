@@ -3,11 +3,15 @@
 INSTALL excel;
 LOAD excel;
 
-SELECT *
+SELECT
+    "D" AS release_date,
+    "E" AS hours_viewed,
+    "F" AS runtime,
+    "G" AS views
 FROM read_xlsx(
     'data/raw/2023_H2.xlsx',
     sheet = 'Film',
-    header = false,      -- do not treat any row as column names yet
-    all_varchar = true,  -- read every cell as text, no type guessing
-    range = 'B6:G12'       -- just the first 12 rows
+    header = false,
+    all_varchar = true,
+    range = 'B6:G40'
 );
